@@ -28,12 +28,12 @@ TaskBuddy focuses on simplicity. No complex menus or features—just a clean int
 * LocalStorage for data persistence
 
 ## 📦 Installation
-### 1. Clone this repository
+##### 1. Clone this repository
 ```` git clone https://github.com/your-username/TaskBuddy.git ````
 
-### 2. Open the project folder
+##### 2. Open the project folder
 ```` cd TaskBuddy ````
 
-### 3. Run the project
+##### 3. Run the project
 
-***Simply open index.html in your browser.***
+Simply open index.html in your browser.
