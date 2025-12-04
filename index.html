@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="toDo-List,Bucket-List,toDo List,Bucket List,plan maker">
+    <meta name="description"
+        content="this website provide a better for bucket listing enjoy and make your list.just make your tasks!">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Arun D. B.E">
+    <title>📑 TaskBuddy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Hero / Centered heading -->
+    <section class="hero" aria-label="TaskBuddy hero">
+        <div class="hero-inner">
+            <h1>TaskBuddy</h1>
+            <h2 class="subtitle">Simple tasks. Smarter productivity.</h2>
+            <p class="lead">Organize your day with a lightweight task app that helps you focus.</p>
+            <a class="cta" href="#Input-container">Get Started</a>
+        </div>
+        <div class="extra-slogan"><h4>Stop planning. Start doing.</h4></div>
+    </section>
+
+    <section class="Current-timeLog">
+        <div class="time"></div>
+        <div class="date"></div>
+    </section>
+
+    <div id="alert" class="msgbox">
+        <!-- alert message update in js -->
+    </div>
+
+    <form class="Input-container" id="Input-container">
+        <input type="text" placeholder="what is your Plans!" id="inputbox">
+        <button class="input-btn" id="input-btn">Add List</button>
+    </form>
+
+    <section id="TaskSection">
+        <div class="TaskDasboard">
+            <div id="TotalTasks"></div>
+            <div id="CompletedTasks"></div>
+        </div>
+        <div class="taskShow-box" id="taskShow-box">
+            <!-- task update from js -->
+        </div>
+        <div class="image">
+            <img src="./Assets/displaytheme1.jpg" alt="bucketlist index image">
+            <h3>Create Your bucket List.</h3>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
