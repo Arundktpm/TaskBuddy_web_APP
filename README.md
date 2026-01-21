@@ -29,7 +29,7 @@ TaskBuddy focuses on simplicity. No complex menus or features—just a clean int
 
 ## 📦 Installation
 ##### 1. Clone this repository
-```` git clone https://github.com/your-username/TaskBuddy.git ````
+```` git clone https://github.com/Arundktpm/TaskBuddy_web_APP.git ````
 
 ##### 2. Open the project folder
 ```` cd TaskBuddy ````
